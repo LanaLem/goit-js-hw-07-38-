@@ -28,6 +28,7 @@ function createBoxes(amount) {
         height += 10;
         elements.push(item);
     }
+    
     boxesEl.append(...elements);
     
 };
