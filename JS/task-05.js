@@ -8,5 +8,4 @@ function onInputKyePress(event) {
     if (event.currentTarget.value.length === 0) {
         textEl.textContent = "незнакомец";
     }
-    console.log(textEl.textContent);
 }
